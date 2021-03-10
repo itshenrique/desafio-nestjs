@@ -1,8 +1,11 @@
-## Description
+# Desafio Nestjs
 
-Desafio Coopersystem
+<p float="center">
+  <img alt="nestjs.js" src="https://img.shields.io/badge/nestjs%20-%2320232a.svg?&style=for-the-badge&logo=nestjs&logoColor=%FF4287f5"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
+</p>
 
-## Installation
+## Instalação
 
 ```bash
 # Instala as dependências
@@ -11,24 +14,24 @@ $ npm install
 $ npm run start:dev:db
 # Cria as tabelas
 $ npm run typeorm:migration:run
-# Create seed
+# Cria a seed com usuário master
 $ npm run start:dev:seed
 ```
 
-## Running the app
+## Rodando o aplicativo
 
 ```bash
-# development
+# Desenvolvimento
 $ npm run start
 
-# watch mode
+# Nodemon
 $ npm run start:dev
 
-# production mode
+# Produção
 $ npm run start:prod
 ```
 
-## Test
+## Testes
 
 ```bash
 # unit tests
